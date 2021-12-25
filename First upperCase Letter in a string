@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+char searching(string s,int i){
+
+     if(s[i]=='\0')
+       return 0;
+
+    if(s[i]>='A' and s[i]<='Z')
+    return s[i];
+
+    return searching(s,i+1);
+    
+}
+
+int main()
+{ 
+    string s;
+    cin>>s;
+    
+    char ans=searching(s,0);
+    cout<<ans<<endl;
+
+    return 0;
+}
