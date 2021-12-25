@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void printsum(int arr[],int n)
+{
+    int brr[n-1];
+    
+    if(n==0)
+       return;
+       
+    for(int i=0;i<n-1;i++)
+    {
+        brr[i]=arr[i+1]+arr[i];
+    }
+    
+ 
+    printsum(brr,n-1);
+    
+    for(int i=0;i<n;i++)
+       cout<<arr[i]<<" ";
+       
+    cout<<endl;
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0; i<n; i++)
+      cin>>arr[i];
+
+    printsum(arr,n);
+
+    return 0;
+}
