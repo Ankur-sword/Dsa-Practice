@@ -10,3 +10,5 @@
       a = 2, 3, 4
       (2 ^ -31) <= n <= (2 ^ 31) - 1      
       
+ ## Basic Mathematics <br>
+### Task 7:- [Prime Number](https://github.com/Ankur-sword/Dsa-Practice/blob/main/primeNumber.cpp)
