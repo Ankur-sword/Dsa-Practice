@@ -13,3 +13,4 @@
  ## Basic Mathematics <br>
 ### Task 7:- [Prime Number](https://github.com/Ankur-sword/Dsa-Practice/blob/main/primeNumber.cpp)
 ### Task 8:- [Prime Factorisation](https://github.com/Ankur-sword/Dsa-Practice/blob/main/PrimeFactorisation.cpp)
+### Task 9:- [Seive Of Eratosthenes](https://github.com/Ankur-sword/Dsa-Practice/blob/main/SeiveOfEratosthenes.cpp)
