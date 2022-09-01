@@ -16,8 +16,8 @@
 ### Task 9:- [Seive Of Eratosthenes](https://github.com/Ankur-sword/Dsa-Practice/blob/main/SeiveOfEratosthenes.cpp)
 
 ##Binary Search <br>
-###Task 10:- Upper Bound -Element Just greater then given element
-''
+###Task 10:- Upper Bound -Element Just greater then given element   <br>
+     ''
 int Upper_bounds(vector<int>& a,int key)
 {
      int lo=0;
@@ -37,4 +37,4 @@ int Upper_bounds(vector<int>& a,int key)
      return hi;
 
      return -1;
-}''
+}    ''
