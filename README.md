@@ -14,3 +14,27 @@
 ### Task 7:- [Prime Number](https://github.com/Ankur-sword/Dsa-Practice/blob/main/primeNumber.cpp)
 ### Task 8:- [Prime Factorisation](https://github.com/Ankur-sword/Dsa-Practice/blob/main/PrimeFactorisation.cpp)
 ### Task 9:- [Seive Of Eratosthenes](https://github.com/Ankur-sword/Dsa-Practice/blob/main/SeiveOfEratosthenes.cpp)
+
+##Binary Search <br>
+###Task 10:- Upper Bound -Element Just greater then given element
+''
+int Upper_bounds(vector<int>& a,int key)
+{
+     int lo=0;
+     int hi=a.size()-1;
+     while(hi-lo>1)
+     {
+        int mid=(lo+hi)/2;
+
+        if(a[mid]<=key)
+         lo=mid+1;
+         else
+         hi=mid;
+     }
+     if(a[lo]>key)
+     return lo;
+     if(a[hi]>key)
+     return hi;
+
+     return -1;
+}''
